@@ -54,6 +54,6 @@ app.post('/metas', async(req, res) => {
     });
 });
 
-app.listen(3000, () => {
-    console.log("Servidor iniciado com sucesso na porta 3000: https://localhost:3000");
+app.listen(8080, () => {
+    console.log("Servidor iniciado com sucesso na porta 8080: https://localhost:8080");
 });
